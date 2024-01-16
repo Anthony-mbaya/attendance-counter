@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Count</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GEATEAD SCHOOL</h1>
+        <h2>ATTENDANCE COUNTER</h2>
+
+        <label for="timeSelect">Select Lesson Duration:</label>
+        <select name="lessonDuration" id="duration">  
+              <option value="" id="entered">Lesson Duration</option>
+              <option value="8h - 10h">8h - 10h</option>
+              <option value="11h - 13h">11h - 13h</option>
+              <option value="14h - 16h">14h - 16h</option>
+        </select>
+
+        <p id="counter">0</p>
+
+        <div class="btn">
+              <button id="increm" onclick="increment()">ATTENDED</button>
+              <button id="save" onclick="save()">SAVE</button>
+        </div>
+
+        <div class="disp">
+              <p id="recordText">ATTENDANCE RECORD: </p>
+              <p id="lessDuration"></p> 
+              <p id="record">STUDENTS: </p>
+        </div>
+    </div>
+
+    
+    <script src="counter.js"></script>
+
+</body>
+</html>

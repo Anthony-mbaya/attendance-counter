@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     
+    font-family: sans-serif;
+
+}
+.container{
+    width: 500px;
+    height: 550px;
+    border: 3px solid greenyellow;
+    border-radius: 1.7em;
+    margin:10em auto;
+    text-align: center;
+    background-color:rgb(169, 221, 252);
+}
+ 
+h1{
+    margin-top: 1em;
+    font-size: 3.5em;
+}
+h2{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 2.2em;
+}
+
+#duration,label{
+    font-size: 1.5em;
+}
+#duration{
+    padding: 3px;
+    margin-bottom: 1.4em;
+    background-color: rgb(170, 193, 209);
+}
+#counter{
+    font-size: 8em;
+    color:rgb(59, 47, 228);
+}
+button{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    padding: 10px;
+    border-radius: 11px;
+    margin-top: 1.4em;
+}
+ .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.2em;
+ }
+ #increm{
+    background-color:  rgb(248, 187, 75);
+    color: black;
+ }
+ #increm:hover{
+    background-color: black;
+    color: white;
+ }
+ #save{
+    background-color: rgb(32, 255, 88);
+ }
+ #save:hover{
+    background-color: rgb(116, 119, 115);
+    color: white;
+ }
+ .disp{
+    font-size: 1.3em;
+    margin-top: 1em;
+
+ }
+ #record{
+    background-color:gray;
+    color: white;
+    height: 1.6em;
+    margin: auto;
+    width: 10em;
+    font-size: 1.7em;
+    padding: 3px;
+ }
+ #recordText{
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+ }
